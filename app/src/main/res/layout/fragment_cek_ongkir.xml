@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/logo_cek_ongkir"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="30dp"
+                    android:text="Cek Ongkir" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:text="- Cek ongkos kirim sampai ke kecamatan" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:text="- Pilihan jasa ekspedisi yang beragam" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <AutoCompleteTextView
+            android:id="@+id/lokasiasal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:longClickable="false"
+            android:textIsSelectable="false"
+            android:layout_gravity="center"
+            android:hint="Lokasi Asal"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_lokasi_asal"
+            android:drawablePadding="5dp"
+            android:digits="@string/only_alphabet"
+            android:background="@drawable/autocomplete_input_02_style"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/lokasitujuan"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:longClickable="false"
+            android:textIsSelectable="false"
+            android:layout_gravity="center"
+            android:hint="Lokasi Tujuan"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:drawableStart="@drawable/ic_lokasi_tujuan"
+            android:drawablePadding="5dp"
+            android:digits="@string/only_alphabet"
+            android:background="@drawable/autocomplete_input_02_style"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/etWeight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="1000"
+                android:background="@drawable/autocomplete_input_02_style"
+                android:hint="berat"
+                android:drawableStart="@drawable/logo_weight"
+                android:drawablePadding="5dp"
+                android:maxLength="5"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textColorHint="@color/white"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/etCourier"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:background="@drawable/autocomplete_input_02_style"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:padding="10dp"
+                android:focusable="false"
+                android:layout_marginLeft="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/process"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/gray0"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonstyle_01"
+            android:elevation="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEK SEKARANG" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+
+    <!--  created by : Aya Avdews  -->
+    <!--   XII RPL A [17.006892]   -->
+    <!--      SMKN 2 Surakarta     -->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

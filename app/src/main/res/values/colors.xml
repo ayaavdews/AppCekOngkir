@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  created by : Aya Avdews  -->
+    <!--   XII RPL A [17.006892]   -->
+    <!--      SMKN 2 Surakarta     -->
+
+    <color name="colorAccent">#ffff</color>
+    <color name="colorPrimary">#ffff</color>
+    <color name="colorPrimaryDark">#2f333f</color>
+
+    <color name="blue0">#2948ff</color>
+    <color name="blue1">#36d1dc</color>
+    <color name="blue2">#89fffd</color>
+    <color name="blue3">#61BEFF</color>
+    <color name="blue4">#0ed2f7</color>
+    <color name="blue5">#b2fefa</color>
+    <color name="blue6">#36d1dc</color>
+    <color name="blue7">#00d2ff</color>
+    <color name="blue8">#5b86e5</color>
+    <color name="blue9">#1cefff</color>
+
+    <color name="red1">#ff416c</color>
+    <color name="red2">#ff5e62</color>
+
+    <color name="gray0">#777777</color>
+    <color name="gray1">#c0c0aa</color>
+
+    <color name="white">#ffff</color>
+    <color name="black">#000000</color>
+
+</resources>

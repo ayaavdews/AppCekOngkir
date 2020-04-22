@@ -1,0 +1,29 @@
+<resources>
+
+    <!--  created by : Aya Avdews  -->
+    <!--   XII RPL A [17.006892]   -->
+    <!--      SMKN 2 Surakarta     -->
+
+    <string name="app_name">Ongkir Resi</string>
+    <string name="title_cekOngkir">Cek Ongkir</string>
+    <string name="title_cekResi">Cek Resi</string>
+    <string name="title_info">Info</string>
+
+    // Validasi pada semua inputan pada aplikasi
+    <string name="only_alphabet">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="only_alphabel_and_number">abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890</string>
+
+    <string name="type">subdistrict</string>
+
+    <string-array name="courier_list">
+        <item>JNE    </item>
+        <item>JNT    </item>
+        <item>POS    </item>
+        <item>JET    </item>
+        <item>TIKI   </item>
+        <item>NINJA  </item>
+        <item>WAHANA </item>
+        <item>SICEPAT</item>
+    </string-array>
+
+</resources>

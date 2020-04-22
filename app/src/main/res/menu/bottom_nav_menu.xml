@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_cekOngkir"
+        android:icon="@drawable/navigation_cek_ongkir"
+        android:title="@string/title_cekOngkir" />
+
+    <item
+        android:id="@+id/navigation_cekResi"
+        android:icon="@drawable/navigation_cek_resi"
+        android:title="@string/title_cekResi" />
+
+    <item
+        android:id="@+id/navigation_info"
+        android:icon="@drawable/navigation_cek_info"
+        android:title="@string/title_info" />
+
+</menu>

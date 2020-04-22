@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_cekOngkir"
+    tools:ignore="UnusedNavigation">
+
+    <fragment
+        android:id="@+id/navigation_cekOngkir"
+        android:name="com.ayaavdews.appcekongkir.Fragment.CekOngkir.FragmentCekOngkir"
+        android:label="@string/title_cekOngkir"
+        tools:layout="@layout/fragment_cek_ongkir" />
+
+    <fragment
+        android:id="@+id/navigation_cekResi"
+        android:name="com.ayaavdews.appcekongkir.Fragment.CekResi.FragmentCekResi"
+        android:label="@string/title_cekResi"
+        tools:layout="@layout/fragment_cek_resi" />
+
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.ayaavdews.appcekongkir.Fragment.Info.FragmentInfo"
+        android:label="@string/title_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
